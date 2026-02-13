@@ -80,3 +80,20 @@ blockquote {
       text-align: center;
       color: gray;
 }
+img { 
+        width: 150px;
+         height: 150px;
+         border-radius: 30px;
+         transition: 0.4s;
+}
+img:hover { 
+        transform: scale(1.50); 
+}
+       
+.order {
+      flex: 30%;
+      padding: 2px;
+}
+.sample {
+  display: flex;
+}
