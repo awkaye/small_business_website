@@ -1,19 +1,23 @@
-<!DOCTYPE html>
 <html>
 <head>
 <style>
-body {background-color: #f5c5d3;
+body { 
+  background-image: url("https://media.istockphoto.com/id/1134776458/photo/pink-tulips-border-on-pink-background-copy-space-top-view-holiday-background.jpg?s=612x612&w=0&k=20&c=kd2_o35rm605GnEH7VI8XlXPsxJZ-lggHTVNfggqDwk=");
+}
+.navigation {
+  background-color: #f5c5d3;
 }
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 5;
   overflow: hidden;
   background-color: #f5c5d3;
+  position: sticky;
 }
 
 ul li {
-  float: left;
+  float: right;
 }
 
 ul li a {
@@ -30,26 +34,61 @@ ul li a:hover {
 }
 .businessname {color: #27418c;
                font-family: Brush Script MT;
-               font-size: 64px;
-               text-align: center;
+               font-size: 32px;
+               text-align: left;
+               text-indent: 40px;
 }
-.logo {width: 400px;
-       height: 400px;
+.logo {width: 50px;
+       height: 50px;
        border-radius: 100%;
        float: left;
+       padding: 4;
+}
+h4.kae { 
+       text-align: center;
+}
+.tutorial {
+      width: 500px;
+      height: 250px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 20px;
+      transition: 0.4s;
+}
+.tutorial:hover {
+      transform: scale(1.08);   
+ } 
+.tagline {
+      font-family: Courier;
+      text-align: center;
+      color: blue;
 }
 </style>
 </head>
 <body>
-<img src="https://cdn.prod.website-files.com/65fb46186d1d506d69123dfd/66a535c653d15d840eb7f3e7_hcwcG8fL0daGxBlqGUegIDSXUq1viwUgKxcOt_9unCo.webp" class="logo">
+<div class="navigation">
+<img src="https://awkaye.github.io/small_business_website/logo%20(1).jpg" class="logo">
 <nav>
 <ul>
-  <li><a href="https://awkaye.github.io/small_business_website/home.html">Home</a></li>
-  <li><a href="https://awkaye.github.io/small_business_website/about.html">About</a></li>
-  <li><a href="https://awkaye.github.io/small_business_website/products.html">Products</a></li>
   <li><a href="https://awkaye.github.io/small_business_website/contact.html">Contact</a></li>
+  <li><a href="https://awkaye.github.io/small_business_website/products.html">Products</a></li>
+  <li><a href="https://awkaye.github.io/small_business_website/about.html">About</a></li>
+  <li><a href="https://awkaye.github.io/small_business_website/home.html">Home</a></li>
 </ul>
 </nav>
-<h1 class="businessname">Kae Creaciones</h1>
+</div>
+<div>
+<h3 class="welcome">Welcome to Kae Creaciones, where simple wires turn into beautiful flowers. Each piece is handmade with patience and creativity, making every arrangement special and unique.</h3>
+<p>We create handcrafted fuzzy wire flowers such as sunflowers, lilies, and tulips, carefully shaped and assembled petal by petal. Each piece is made with attention to detail, making every flower unique and special. Unlike real flowers, our creations never wilt or fade, so they can be kept as a lasting remembrance. Because of their durability and cute aesthetic, they are perfect as keepsakes, decorations, and meaningful gifts for any occasion — from birthdays and anniversaries to simple appreciation surprises.</p>
+</div>
+<div>
+<br>
+<h4 class="kae">Watch how our flowers are carefully handmade from soft fuzzy wires into detailed floral designs.</h4>
+<video class="tutorial" controls>
+<source src="https://awkaye.github.io/small_business_website/f48a8b89-3b3b-43b5-b80e-defcdcbcaa5f.mp4" type="video/mp4" class="video">
+</video>
+</div>
+<p class="tagline">Give a flower that lasts forever 💐</p>
 </body>
 </html>
