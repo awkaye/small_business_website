@@ -76,3 +76,7 @@ h4.kae {
 .themission {
       text-align: justify;
 }
+blockquote {
+      text-align: center;
+      color: gray;
+}
